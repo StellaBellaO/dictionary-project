@@ -26,8 +26,9 @@ export default function Dictionary() {
 
     return (
         <div className="Dictionary">
+            <h1 className="form-paragraph text-center">What word are you searching for?</h1>
 <form onSubmit={search} className="form-search">
-    <input type="search" placeholder="Type a word.." onChange={handleKeywordChange}/>
+    <input type="search" placeholder="Type a word.." size={50} onChange={handleKeywordChange}/>
 </form>
 <p className="example-section text-center"> i.e Ocean, Sunrise, River </p>
 <Results results={results} />
