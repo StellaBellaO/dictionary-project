@@ -8,6 +8,7 @@ function App() {
       <div className="container">
       <header className="App-header">
        <img src={logo} className="App-logo img-fluid" alt="logo" />
+       <h1 className="text-center"> SMEO Dictionary </h1>
       </header>
       <main>
         <Dictionary />
