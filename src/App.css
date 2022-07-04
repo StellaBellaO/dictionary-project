@@ -9,11 +9,18 @@
   margin: auto;
 }
 
-.App-footer {
-  margin: 30px 0;
-}
+
 
 .App h1 {
   font-size: 50px;
   font-weight: bold;
+}
+
+footer a {
+  color: black;
+}
+
+footer {
+  color: black;
+  font-size: 10px;
 }
