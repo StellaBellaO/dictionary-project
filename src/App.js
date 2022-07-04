@@ -11,7 +11,7 @@ function App() {
        <h1 className="text-center"> SMEO Dictionary </h1>
       </header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="Ocean" />
       </main>
       <footer className="App-footer text-center"> <small>Coded by Stella-Maris Ojideh </small> </footer>
       </div>
